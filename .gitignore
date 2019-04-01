@@ -21,6 +21,16 @@ xcuserdata/
 *.moved-aside
 *.xcuserstate
 
+## Example
+Example/Pods/
+Example/SubscriptionMonitor.xcworkspace/
+Example/SubscriptionMonitor.xcworkspace/
+
+Example/SubscriptionMonitor.xcworkspace/xcuserdata
+Example/SubscriptionMonitor.xcodeproj/project.xcworkspace/
+Example/SubscriptionMonitor.xcodeproj/xcuserdata
+
+
 ## Obj-C/Swift specific
 *.hmap
 *.ipa

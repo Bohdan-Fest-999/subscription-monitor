@@ -8,6 +8,8 @@
 
 import Foundation
 
+
+
 public class ProductGroup {
     
     /// ProductGroups are used to contain related products. User's can upgrade/downgrade/crossgrade based on the product
@@ -45,8 +47,9 @@ public class ProductGroup {
 }
 
 extension ProductGroup: Hashable {
-    public var hashValue: Int {
-        return self.name.hashValue
+    
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(name.hashValue)
     }
     
     public static func == (lhs: ProductGroup, rhs: ProductGroup) -> Bool {
